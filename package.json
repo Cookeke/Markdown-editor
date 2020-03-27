@@ -1,0 +1,23 @@
+{
+  "name": "markdown-editor",
+  "version": "1.0.0",
+  "description": "A electron-based markdown cloud editor.😄",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cookeke/Markdown-editor.git"
+  },
+  "keywords": [
+    "electron",
+    "markdown"
+  ],
+  "author": "kong kehan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cookeke/Markdown-editor/issues"
+  },
+  "homepage": "https://github.com/Cookeke/Markdown-editor#readme"
+}
