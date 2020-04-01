@@ -2,9 +2,9 @@
   "name": "markdown-editor",
   "version": "1.0.0",
   "description": "A electron-based markdown cloud editor.😄",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --watch main.js --exec \"electron .\""
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/Cookeke/Markdown-editor/issues"
   },
-  "homepage": "https://github.com/Cookeke/Markdown-editor#readme"
+  "homepage": "https://github.com/Cookeke/Markdown-editor#readme",
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
 }
