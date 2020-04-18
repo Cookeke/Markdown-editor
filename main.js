@@ -17,14 +17,14 @@ app.on('ready', () => {
     console.log(arg)
     event.reply('reply', 'hello from main process')
   })
-  // let secondWindow = new BrowserWindow({
-  //   width: 400,
-  //   height: 300,
-  //   webPreferences: {
-  //     // 可以使用node
-  //     nodeIntegration: true
-  //   },
-  //   parent: mainWindow
-  // })
-  // secondWindow.loadFile('second.html')
+  let secondWindow = new BrowserWindow({
+    width: 400,
+    height: 300,
+    webPreferences: {
+      // 可以使用node
+      nodeIntegration: true
+    },
+    parent: mainWindow
+  })
+  secondWindow.loadFile('second.html')
 })
