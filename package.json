@@ -22,7 +22,7 @@
   "homepage": "https://github.com/Cookeke/Markdown-editor#readme",
   "devDependencies": {
     "devtron": "^1.4.0",
-    "electron": "^8.5.2",
+    "electron": "^18.3.7",
     "nodemon": "^2.0.2"
   }
 }
